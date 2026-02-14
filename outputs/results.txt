@@ -1,0 +1,33 @@
+============================================================
+SALES PREDICTION MODEL - EVALUATION RESULTS
+============================================================
+
+Dataset: Superstore Sales (9994 records)
+Train/Test Split: 80/20
+Features Used: Quantity, Discount, Ship Mode_Enc, Segment_Enc, Region_Enc, Category_Enc, Sub-Category_Enc, Order Year, Order Month, Order DayOfWeek, Shipping Days
+Target: Sales
+
+------------------------------------------------------------
+Model                     R² Score     MAE          RMSE        
+------------------------------------------------------------
+Linear Regression         0.0438       273.40       751.56      
+Random Forest             0.1811       220.10       695.52      
+------------------------------------------------------------
+
+Best Model: Random Forest
+  R² Score: 0.1811
+  MAE:      220.10
+  RMSE:     695.52
+
+Feature Importance (Random Forest):
+  Sub-Category_Enc          0.2433
+  Quantity                  0.1298
+  Order Month               0.1122
+  Shipping Days             0.0933
+  Order DayOfWeek           0.0899
+  Region_Enc                0.0686
+  Discount                  0.0682
+  Category_Enc              0.0646
+  Order Year                0.0529
+  Segment_Enc               0.0428
+  Ship Mode_Enc             0.0344
