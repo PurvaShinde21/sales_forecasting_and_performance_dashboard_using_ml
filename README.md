@@ -88,14 +88,11 @@ This will:
 ## Results
 - **Random Forest** achieved a strong **R² score** for sales prediction, outperforming Linear Regression.
 - Key insights: Technology category drives highest sales, Consumer segment is the largest customer base, and the West region leads in revenue.
-```markdown
 
-```
 ## Dashboard Preview
 <img width="2475" height="1929" alt="image" src="https://github.com/user-attachments/assets/b4d134e2-3052-477f-a797-7c73775d374d" />
 
-```
-```
 ## License
 This project is for educational purposes.
+
 
